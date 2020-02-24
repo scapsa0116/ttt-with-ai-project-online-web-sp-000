@@ -41,11 +41,11 @@ def display
   end
   
 
-  def update(input, token)
-    # binding.pry 
-    cells[input.to_i - 1] = "X"
-    display
-  end
+  # def update(input, token)
+  #   # binding.pry 
+  #   cells[input.to_i - 1] = "X"
+  #   display
+  # end
 
 end
 
