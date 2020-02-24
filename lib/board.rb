@@ -41,11 +41,7 @@ def display
   end
   
 
-  # def update(input, token)
-  #   # binding.pry 
-  #   cells[input.to_i - 1] = "X"
-  #   display
-  # end
+ 
 def update(position, player)
       self.cells[position.to_i-1] = player.token
   end
